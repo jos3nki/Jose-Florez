@@ -1,0 +1,97 @@
+body{
+    background: url(./Piedra_papel_tijeras.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#juego{
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    background-color: #92B8FF;
+}
+
+.imagenes_contenedor{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagenes_contenedor article{
+    width: 40%;
+    height: 75%;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.contenedor_opciones{
+    width: 100%;
+    height: 12%;
+    display: flex;
+}
+
+.contenedor_opciones section{
+    width: 33.33%;
+}
+
+.contenedor_opciones section button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.piedra:hover{
+    background-color: #BDBDBD;
+}
+
+.papel:hover {
+    background-color: #7CFFF7;
+}
+
+.tijera:hover {
+    background-color: #80F6A3;
+}
+
+.contenedor_jugar{
+    width: 100%;
+    height: 13%;
+}
+
+.jugar{
+    width: 100%;
+    height: 100%;
+    background-color: #FF6363;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.jugar:hover{
+    background-color: #AD3939;
+}
+
+.resultado{
+    width: 60%;
+    height: 20vh;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.resultado_letrero{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 26px;
+}
+

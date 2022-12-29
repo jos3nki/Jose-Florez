@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <section id="juego">
+        <section class="imagenes_contenedor">
+            <article class="imagen_opcion">
+
+            </article>
+            <article class="imagen_maquina">
+
+            </article>
+        </section>
+
+        <section class="contenedor_opciones">
+            <section class="contenedor_piedra">
+                <button class="piedra" onclick="piedra1()">PIEDRA</button>
+            </section>
+
+            <section class="contenedor_papel">
+                <button class="papel" onclick="papel2()">PAPEL</button>
+            </section>
+
+            <section class="contenedor_tijera">
+                <button class="tijera" onclick="tijera3()">TIJERA</button>
+            </section>
+        </section>
+
+        <section class="contenedor_jugar">
+            <button class="jugar" onclick="verificar()">JUGAR</button>
+        </section>
+    </section>
+
+    <section class="resultado">
+        <article class="resultado_letrero"></article>
+    </section>
+
+    <script src="./index.js">
+    </script>
+</body>
+
+</html>
